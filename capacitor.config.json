@@ -1,0 +1,9 @@
+{
+  "appId": "com.notisave.vault",
+  "appName": "Notisave",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}

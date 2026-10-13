@@ -1,0 +1,6 @@
+{
+  "name": "Notisave - Notification Saver & Cloud Sync",
+  "description": "Autosave Android notifications, read chats unseen, recover deleted messages, and sync data in real time with offline support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

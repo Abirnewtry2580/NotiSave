@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="50%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background Squircle / Rounded Circle -->
+  <rect x="24" y="24" width="464" height="464" rx="112" fill="#ffffff" filter="url(#shadow)"/>
+  
+  <!-- Outer subtle gradient halo -->
+  <circle cx="256" cy="256" r="180" stroke="url(#ringGrad)" stroke-width="12" fill="none" opacity="0.85"/>
+
+  <!-- Bell Shape in Notisave style -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Top hanger -->
+    <path d="M236 142 A 20 20 0 0 1 276 142" stroke="#3b82f6" stroke-width="18"/>
+    
+    <!-- Bell dome -->
+    <path d="M170 306 C 170 210, 200 170, 256 170 C 312 170, 342 210, 342 306 C 342 334, 366 348, 374 354 C 352 358, 160 358, 138 354 C 146 348, 170 334, 170 306 Z" 
+          fill="url(#bgGrad)" stroke="#2563eb" stroke-width="6"/>
+          
+    <!-- Clapper / dot -->
+    <circle cx="256" cy="384" r="22" fill="#3b82f6"/>
+  </g>
+</svg>
